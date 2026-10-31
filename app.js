@@ -176,7 +176,7 @@ const CHATS = [
 #0 00:12
 o|Ayo nonton upi bub
 i|Ga demen
-i|Kedemenan si malik ajg
+i|Kedemenan si eta ajg
 o|Aing ge demen kontol
 o|Memek
 i|Bub
@@ -555,27 +555,31 @@ const SC = (chat, raw, o = {}) => ({
 const SCENES = {
   /* 1. PDKT awal */
   h1: SC('baby', `
-Gravy|Iel, lu lagi ngapain?
-Hagiel|Lagi rebahan aja nih vy. Kenapa?
-Gravy|Mabar VD (Violence District) yuk?
-Hagiel|Anjir tumben amat lu ngajakin gua mabar wkwk
-Gravy|Ya gapapa, bosen aja gua sendirian di room. Lu free ga?
-Hagiel|Free sih. Tapi gua agak beban ya tar wkwk
-Gravy|Santai elah, kayak sama siapa aja lu. Ntar gua gendong.
-Hagiel|Yaudah ayo, send link room lu.
-Gravy|Oke, login sekarang. Gua tunggu di lobby ya.
-Hagiel|Siap dangdutt`),
+Gravy|Iel, lagi apa?
+Hagiel|kagak ada rebahan aja, ngape?
+Gravy|Mabar yu, vd
+Hagiel|tumben tumbenan ih ngajak mabar
+Gravy|Bosen, mau ditemenin sama lu. Free kan?
+Hagiel|free sih. tapi nanti beban gapapa ya
+Gravy|Santai sihh nanti abang abangan vd backing de wkwk
+Hagiel|dasar tengil, iyaa otw login deh
+Gravy|Yes join server gua ya
+Hagiel|oke dangdutt`),
   /* 2. Curhat ke Eiser */
   e1: SC('eiser', `
-Gravy|Ser, lu sibuk ga?
-Eiser|Kagak vy, napa? Tumben pc gua.
-Gravy|Gua lagi coba deketin Hagiel nih...
-Eiser|HAHDJDJ SERIUSAN LU VY?! ANJIR LU!
-Eiser|Parah sih lu 2 tahun temenan baru gerak sekarang wkwkwkwk. Tapi baguslah anjir, lagian lu udah jomblo karatan gitu. Lu tuh pantes bahagia vy, gausah pesimis lagi kayak kemaren-kemaren.
-Gravy|Ya gimana ya ser... gua takut dia ga ada rasa balik ke gua wkwk. Lagian Hagiel mah cakep, yang mau banyak.
-Eiser|Halah kontol gausah sok minder lu. Lu juga keren anjir, punya karir, bisa segalanya. Hantam aja elah! Gua dukung 1000% asal lu ga sedih-sedih lagi kalo lu pesimis gua ludahin
-Gravy|Wkwk makasih ser. Ini baru tahap ajak mabar sih.
-Eiser|Mantap, dari mabar turun ke hati wkwkwkwk. Gasdahh`),
+Gravy|Ser sibuk kaga?
+Eiser|santai aja, ada apa tumben pc gua gini, sus 
+Gravy|Kebiasaan sas sus sas sus
+Gravy|Kenal hagiel kan lu? Gua lagi nyoba deketin dia wdyt?
+Eiser|anjir tau gua
+Eiser|seinget gua dia kawan lama lu udah 2 tahun kan? kok baru sekarang? abis buang siapa lu? susss
+Gravy|Babi ni anak, mana ada gua di buang ajg
+Gravy|Dia punya pacar 2 tahun ini masa gua deketin dia kemarin, bodohnya
+Eiser|OHHH WKWKWK 
+Eiser|yaudah sih gass
+Eiser|lu jelas kan kali ini? gak usah wdyt widayat gua, gak usah minder kalo minded gua ludahin. usahain sebisa lu
+Gravy|Keras sih gua, day one liat dia lagi aja dah jatuh cinta mampus gua
+Eiser|najis reflek kecintaan gitu ni anak`),
   /* 3. Group Akatsudi (Eiser cepu) */
   ak1: SC('akatsudi', `
 Eiser|Guys, ada berita besar. Si Gravy lagi incer seseorang wkwkwk 🚨
