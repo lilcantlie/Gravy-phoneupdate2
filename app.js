@@ -577,83 +577,100 @@ Gravy|Babi ni anak, mana ada gua di buang ajg
 Gravy|Dia punya pacar 2 tahun ini masa gua deketin dia kemarin, bodohnya
 Eiser|OHHH WKWKWK 
 Eiser|yaudah sih gass
-Eiser|lu jelas kan kali ini? gak usah wdyt widayat gua, gak usah minder kalo minded gua ludahin. usahain sebisa lu
+Eiser|lu jelas kan kali ini? gak usah wdyt widayat gua, gak usah minder kalo minder gua ludahin. usahain sebisa lu
 Gravy|Keras sih gua, day one liat dia lagi aja dah jatuh cinta mampus gua
 Eiser|najis reflek kecintaan gitu ni anak`),
   /* 3. Group Akatsudi (Eiser cepu) */
   ak1: SC('akatsudi', `
-Eiser|Guys, ada berita besar. Si Gravy lagi incer seseorang wkwkwk 🚨
-Maxton|HAH SERIUSAN?! Siapa anjing?? bub spill lah mmk!
+Eiser|semuaa kumpul
+Eiser|Gravy lagi incer seseorang
+Maxton|Siapa lagi yang maneh incer
 Evander|Wah... akhirnya ya vy. Tapi inget vy, kali ini pastiin dia beneran hargain lu. Jangan sampe lu ngerasain hal yang sama kayak yang lalu-lalu.
-Gravy|Wkwkwk kalem elah ser, cepu banget lu anjir. Nanti aja kalo udah jelas baru gua kasih tau.
-Maxton|Ah ga seru sia bub! Siapa sih? Anak kampus kita apa luar?
-Eiser|Wkwkwk yang pasti kalian semua kenal sih 😜
-Maxton|ANJING BIKIN PENASARAN AJA LU DUAAN! Siapa elahhh?!
+Gravy|Wkwkwk kek berita besar aja cok
+Gravy|Santai santai nanti gua spill
+Maxton|Kenapa nanti dihh
+Maxton|Saha sih? Anak kampus maneh atau saha? Kita kenal?
+Eiser|pasti kalian semua kenal sih 😜
+Maxton|Siapa sihh
+Maxton|Kok main rahasia rahasiaan ga nyaah ya
 Gravy|Rahasia dlu ya ajg anak anak kepo`),
   /* 4. Roomchat Maxton */
   m1: SC('maxton', `
-Maxton|Bub serius aing masih penasaran anjir. Tapi yaudah deh kalo belom mau cerita.
+Maxton|Bub serius aing masih penasaran anjir
 Maxton|Semoga yang kali ini beneran baik ya buat sia
-Gravy|Haha iya ton, nuhun ya. Doain aja lancar.
-Maxton|Pasti lah. Pokoknya kalo ada apa-apa cerita ke aing bub.`),
+Gravy|Santai atuh kasep aing bakal kasih tau ke sia sebagai orang pertama kalo udah jadian
+Maxton|Aing tunggu`),
   /* 5. Konflik PDKT */
   h2: SC('baby', `
-Gravy|Iel, mabar VD lagi yuk malam ini?
-Hagiel|Lagi males mabar.
-Gravy|Oh yaudah gapapa, besok malam gimana?
-Hagiel|Kayaknya besok-besok juga lagi males deh vy. Lu ajak yang lain aja.
-Gravy|Eh... lu kenapa el? Gua ada salah kata ya pas mabar kemarin?
-Gravy|Maaf ya kalau ada sikap atau kata-kata gua yang bikin lu risih...`, { readNote: true }),
+Gravy|Hi
+Gravy|Mabar lagi dong
+Hagiel|mager ah udah malem ga boleh sama mamah
+Gravy|Lah kemarin kita mabar malam
+Gravy|Kenapa tiba tiba ga boleh?
+Hagiel|ummm yaaa
+Hagiel|pokoknya ga boleh dan mager, besok aja.
+Gravy|Ya santai sih kok gitu, gua da salah?
+Gravy|Sorry ya kalo ada sikap atau kata kata gua yang bikin lu risih...`, { readNote: true }),
   /* 6. Keenan (klarifikasi) — notifikasi "P" */
   k1: SC('keenan', `
-Keenan|Vy, lu lagi ada masalah ya sama Hagiel?
-Gravy|Lu tau sesuatu ya? Iya anjir, dia mendadak dingin banget diajak mabar ga mau
-Keenan|Wkwk lo tau ga vy kenapa Hagiel ga mau mabar malam ini?
-Gravy|Kagak tau anjir, makanya gua pusing dari tadi ngerasa ada salah.
-Keenan|Tadi sore dia habis ketemu gua. Dia gedeg sama lu gara-gara ngira lu lagi deketin yang lain juga selain dia wkwk.
-Gravy|Apasiiii nan Kagak ada anjir, gua cuma deketin dia doang!
-Keenan|Ya gua kan juga kenal lo wkwk, makanya gua agak ragu pas dia cerita gitu. Tapi ya persepsi dia gitu vy, ngira lo cuma jadiin dia opsi.
-Gravy|Asli dah gua bukan si M lagi wkwk. Cuma Hagiel yang lagi gua deketin.
-Keenan|Yaudah sana pc anaknya, jelasin baik-baik gausah gengsi.`,
+Keenan|heh lu abis dicuekin Hagiel yaa wkwk
+Gravy|Dih kok tau
+Gravy|Hagiel ada bilang sesuatu ke lu?
+Keenan|wkwk tau lahh mau tau ga kenapa?
+Gravy|Kagak tau gua mikirin dari tadi, perasaan kemarin masih fine dah
+Keenan|dia abis chatan sama gua nih, curhat
+Gravy|dia ada feeling lu ngelakuin hal yang sama ke yang lain, alias dia ngira lu ngedeketin yang lain
+Gravy|Mana ada anjir ngaco
+Keenan|gua kan juga kenal lu wkwk, makanya gua agak ragu pas dia cerita gitu. tapi ya persepsi dia gituu ngira lu cuma jadiin dia opsi.
+Gravy|Asli dah gua lagi ga deket sama siapa siapa lagi selain dia
+Keenan|jelasin gihh masih nerima kek nya anak nya`,
     { arrive: { text: 'P', by: 'Keenan' } }),
   /* 7. Penjelasan & luluh */
   h3: SC('baby', `
-Gravy|Iel... gua ga ada siapa-siapa demi tuhan. Makanya gua ajak lu mabar terus, cuma lu yang mau gua temenin.
-Gravy|Lu ga mau temenin gua mulai sekarang?
-Hagiel|...Beneran ga ada yang lain?
-Gravy|Beneran Hagiel... Lu bisa pegang omongan gua
-Hagiel|Yaudah deh... Maaf ya vy tadi gua agak moody wkwk.
-Gravy|Wkwk gapapa. Join room gua sekarang yuk?
-Hagiel|Ayoo!`),
+Gravy|Iel...
+Gravy|Abis liat apa sih?
+Gravy|Lu ga mau temenin gua nih sekarang? Yah sayang banget gua ga punya siapa siapa lagi nih
+Gravy|Cuman lu doang yang gua giniin
+Hagiel|'giniin?'
+Hagiel|beneran gak sihh?
+Gravy|Bener kalo perlu sumpah, gua sumpah deh
+Hagiel|dramatis boy bangettt
+Hagiel|yaudahh iya ayo mabar
+Gravy|Lagian ga percaya sihh
+Gravy|Join server gua ya
+Hagiel|iyaaaa`),
   /* 8. Balasan Story 1 */
   // CATATAN: teks pembuka Jiwa & Hilmi + dialog live Jiwa tahap ini tidak ada di PDF → placeholder (lihat laporan).
   j1: SC('jiwa', `
-Jiwa|Double date dong vy, mabar bareng gua sama Hilmi! Mau ga?
+Jiwa|double date dong vy, mabar bareng gua sama Hilmi! Mau ga?
 Gravy|Boleh banget ji, nanti gua kabarin ya.`,
-    { arrive: { text: 'Ayo mabar vy! 🎮', by: 'Jiwa', sr: 1 } }),
+    { arrive: { text: 'Ayo mabar vy!', by: 'Jiwa', sr: 1 } }),
   hl1: SC('hilmi', `
-Hilmi|hahaha iya baru aja tadi pacar lu juga ngajakin gua mabar, double chat ceritanya
-Gravy|Siap kabarin aja ya`,
+Gravy|Pas pasan gini duo sejoli baru aja pacar lu reply ngajak mabar double date, kata gua gass
+Hilmi|Kan kita serasi, gas lah vy kabarin`,
     { needs: ['j1'], arrive: { text: 'Mabar yuk vy!', by: 'Hilmi', sr: 1 } }),
   dt1: SC('dito', `
-Gravy|Nanti gua ceritain di kampus`,
+Dito|Kagak cerita cerita sama gua
+Dito|Udah lupa sama gua
+Gravy|Masa gua lupain lu
+Gravy|Nanti gua ceritain di kampus dit`,
     { needs: ['hl1'], arrive: { text: 'Baru lagi vy', by: 'Dito', sr: 1 } }),
   /* 9. Group Barudak Kampus */
   bk1: SC('barudak', `
-Jourdane|Guys, besok pagi ada kelas Pak Asep ga si?
-Merapi|Ada anjir jam 8 pagi! Mana tuh dosen killer banget lagi dospemnya 💀
-Incen|Hah seriusan jam 8?! Ih males banget, mana tugas kemarin belom selesai full 😭
-Jan Adam|Kalo lo survive kelas besok gue beliin eskrim cen wkwk.
+Jourdane|Infokan kelas
+Merapi|Ada joo jam 8 jir dosen killer pula.
+Incen|ihh males banget jam 8, cape bangett tugas kemarin juga belum selesai pliss 😭
+Jan Adam|Kalo lo survive kelas besok gue beliin eskrim cen wkwk
 Incen|BENERAN YA JAN! AWAS KALO BOHONG!
-Merapi|LAH JAN ADAM GUA JUGA SURVIVE KALI, BELIIN JUGA DONG!
-Jourdane|Gua juga mau es krim lah wkwk!
-Gravy|Wkwk rame amat ini group. Aman besok gua dateng pagi.
-Jeremiel|@Gravy awas lu terlambat vy, biasalah tukang ngaret.
-Gravy|Aman, tidur tidur. Gua ga bakal ngaret.`),
+Merapi|LAH JAN ADAM GUA JUGA SURVIVE KALI, BELIIN JUGA LAH
+Jourdane|Gua juga mau es krim jangan pilih kasih
+Gravy|Gua juga mau cok es krim
+Jeremiel|@Gravy awas lu terlambat vy, tukang ngaret.
+Gravy|Liat bae besok gua ga bakal ngaret.`),
   /* 10. Hari berikutnya, jam 2 siang */
   ak2: SC('akatsudi', `
-Maxton|Beres kerjaan nih. Nongkrong di tempat biasa yuk guys?
-Eiser|GAS!
+Maxton|Ngopi, gas basecamp
+Eiser|GAS
 Evander|Otw.
 Gravy|Gas.`),
   m2: SC('maxton', `
@@ -666,7 +683,7 @@ Maxton|Ily 🫶 Kaulah gay nu paling kasep ku wkwk`,
 Gravy|Iya ini abang bentar lagi pulang. Mau dititipin makanan ga?
 Miyuka|Mauuu! Beliin Chikuro sama Kopken yang series ungu itu abanggg!
 Gravy|Iya ntar dibeliin. Kunci pintu sama jendela ya doll, kamu kan sendirian di rumah.
-Miyuka|Iyaaa abang bawel 🙄 cepetan pulang abis itu aku mau quality time sama Joie pacarku.
+Miyuka|Iyaaa abang bawel 🙄 cepetan pulang abis itu aku mau quality time sama pacarku.
 Gravy|Ahh bucin di lama-lamain ahh wkwk.
 Miyuka|Wuuu abang makanya punya pacar! 😜
 Gravy|Liat aja nanti, bawel.
@@ -675,61 +692,81 @@ Gravy|Bawel.`,
     { arrive: { text: 'Abang main terus aku di rumah sendirian tau! 😡', by: 'Miyuka', sr: 1 } }),
   h4: SC('baby', `
 Gravy|Mabar kok, ini baru nyampe rumah mau bersih-bersih dulu. Jangan tidur dulu ya, tungguin gua ;)
-Hagiel|E-eh... iyaa gua tungguin wkwk.`,
+Hagiel|eh... iyaa gua tungguin wkwk.`,
     { needs: ['mi1'], arrive: { text: 'Ga mabar malam ini ya?', by: 'Hagiel', sr: 1 } }),
   /* 12. Setelah Maps */
   h5: SC('baby', `
 Gravy|Udah sayang... Udah nyampe kok, aku mandi sama bersih-bersih dulu ya?
-Hagiel|Iyaaa mandi dulu sana, aku tungguin.`,
+Hagiel|iyaaa mandi dulu sana, selalu ditungguin kamu mah.`,
     { arrive: { text: 'Kamu udah sampai rumah vy?', by: 'Hagiel' } }),
   j2: SC('jiwa', `
 Gravy|Ji, lu sama Hilmi udah pada free belom?
-Jiwa|Free nih vy, emang kenapa? Tumben nanya malem-malem.
+Jiwa|free nih vy, emang kenapa? Tumben nanya malem-malem.
 Gravy|Gas login Roblox sekarang yuk. Mabar double date nih bareng Baby juga wkwk.
-Jiwa|Asik double date 😭 Boleh tuh! Sebentar ya vy, gua panggil si Hilmi dulu biar join DC (Discord) / party kita.
-Gravy|Sip, kabarin kalau udah on ya. Gua mau ngabarin Baby dulu biar siap-siap login.
-Jiwa|Oke vyy, mantap. Gua standby kok dari tadi di lobby Roblox.`),
+Jiwa|asik double date 😭 Boleh tuh! Sebentar ya vy, gua panggil si Hilmi dulu biar join party kita.
+Gravy|Sip, kabarin kalau udah on ya. Gua mau ngabarin dia dulu biar login.
+Jiwa|oke vyy, mantap. Gua standby kok dari tadi di lobby Roblox.`),
   h6: SC('baby', `
-Gravy|Sayang, udah siap belum? Ini anak-anak yang kemarin aku bilang udah on di Roblox mau mabar bareng kita.
-Hagiel|Eh serius? Udah kok, aku udah standby di roblox hehe.
-Gravy|Wah gercep juga langsung join room yang aku bikin ya.
-Hagiel|Siap abang! Jangan curang ya nanti pas main wkwk.
-Gravy|Mana ada, aku kan player abang abangan jago. Otw login sekarang ya sayang.
-Hagiel|Okeee, ditunggu in-game ya ❤️`),
+Gravy|Sayang, udah siap belum? Ini anak anak yang kemarin aku bilang udah on di Roblox mau mabar kita.
+Hagiel|udah kok, aku udah standby di roblox hehe.
+Gravy|Wah gercep banget excited ya? Join server gua ya
+Hagiel|iya lahh excited, awas ya kalo curang lagii
+Gravy|Mana ada, aku kan player abang abangan jago
+Hagiel|Dasar tengil`),
   /* 13. Selesai mabar → jadian */
   h7: SC('baby', `
-Gravy|Sama-sama... Hagiel, aku mau ngomong serius boleh?
-Hagiel|Boleh, mau ngomong apa vy?
-Gravy|Sebenarnya dari awal aku ajak kamu mabar VD terus, itu cara aku buat deketin kamu...
-Hagiel|Hahaha aku tau kok, dan kamu berhasil deketin akuu
-Hagiel|Hehe Tapi aku penasaran deh, kita kan udah temenan 2 tahun, kenapa ya kamu baru ngerespon sekarang?
-Gravy|LOL kan kamu dulu ada pacar dut
-Hagiel|Kamu juga yaa wkwk!
-Gravy|Yaudah lah ya, mungkin emang baru sekarang waktunya kita buat bareng-bareng.
-Gravy|Eh... kita? Udah jadi 'kita' nih? Kamu terima aku jadi pacar kamu?
-Hagiel|Haha iyaaa Gravy... aku mau jadi pacar kamu
-Gravy|Yess, Happy banget aku malam ini wkwk.
-Hagiel|Udah malam tauu, kamu besok kan harus kerja pagi. Tidur ya sekarang?
-Gravy|Iya sayang. Kamu juga tidur ya. Goodnight sayang
-Hagiel|Goodnight jugaa. See you besok!
+Gravy|Hagiel, aku mau ngomong serius boleh?
+Hagiel|eh apaa?
+Gravy|Sebenarnya dari awal aku ajak kamu mabar VD terus, itu buat sama kamu terus
+Gravy|Deeketin kamu
+Hagiel|hahaha aku tau kok, dan kamu berhasil deketin akuu
+Hagiel|tapi.. setelah 2 tahun temenan kok baru sekarang?
+Gravy|Kamu kan ada pacar bulan bulan kemarin gimana sih dut
+Hagiel|kamu jugaa yaa wkwkwk
+Gravy|Yaudah sih
+Gravy|Mungkin sekarang aja waktu buat kita
+Gravy|Kita? Udah jadi 'kita' nih? Kamu terima aku deketin kamu?
+Hagiel|terima terima ajaaa, deketin doang kan?
+Gravy|Pacar, aku mau ngajak kamu pacaran jugaa, boleh?
+Hagiel|pacar? boleh?
+Gravy|Iya, boleh aku jadi pacar kamu?
+Gravy|Kamu mau jadi pacar aku iel?
+Hagiel|mau vy..
+Hagiel|aku mauu jadi pacar kamu
+Gravy|Serius??
+Hagiel|iyaa aku mauuu
+Gravy|Pacaran ya kita sekarang
+Hagiel|huum pacarann
+Gravy|Seneng banget seriuss, finally
+Hagiel|finally yaaa
+Gravy|Finally, aku nunggu 2 tahun buat hari ini
+Hagiel|gitu yaaa, udah ah malu
+Hagiel|besok lagii udah larut banget liat kan kamu besok kerjaa
+Gravy|Wkwkwk apasii gemes banget
+Gravy|Iya kerja, besokn lagi yaa
+Gravy|Kamu juga tidur ya. Goodnight sayang
+Hagiel|iyaa aku tidur, goodnight jugaa. see you besok!
 Gravy|See you!`,
-    { arrive: { text: 'Makasih ya vy buat mabarnya malam ini, seru banget hehe.', by: 'Hagiel' }, rename: true }),
+    { arrive: { text: 'makasih ya vy buat mabarnya malam ini, seru banget hehe.', by: 'Hagiel' }, rename: true }),
   /* 14. Zayn & Andrew — skrip lama insiden server down dimainkan ulang (diisi dari CHATS di bawah) */
   z1: SC('zayn', '', { fast: true, arrive: { text: 'vy, lu masih melek?', by: 'Zayn Cybersecurity', add: false } }),
   a1: SC('andrew', '', { fast: true, needs: ['z1'], arrive: { text: 'teu sare, anjir. kenapa vy 😭', by: 'Andrew PPIC Staff', add: false } }),
   /* 15. Hari ketiga */
   m3: SC('maxton', `
-Gravy|Maks! Aing berhasil anjir wkwk
-Maxton|Naon Sama siapa anjing? Si Hagiel ??
-Gravy|heeh
+Gravy|Maks aing berhasil
+Gravy|Ngajak pacaran
+Maxton|Naon sama siapa anjing? Si Hagiel ??
+Gravy|Iya wkwk
 Maxton|Tahkan aing udah duga kalo sia bakal sama Hagiel, gelagak 2 tahun nya keliatan pisan anjing
-Gravy|Malu anjir wkwk. Tapi seneng aing bub
-Maxton|Selamat nya bub! Semoga kali ini yang bisa ngertiin sia lahir batin!`),
+Gravy|Malu anjir wkwk aing seneng
+Maxton|Selamat bub. Semoga kali ini yang bisa ngertiin sia lahir batin`),
   ak3: SC('akatsudi', `
-Maxton|WOI GRAVY UDAH  PACARAN SAMA HAGIEL ANJING 🎉
-Eiser|WKWKWK AJG
+Maxton|SEMUANYA KUMPUL
+Maxton|Gravy dah jadian cok
+Eiser|WKWKWK AJG APA KATA GUA GERCEP BET
 Evander|Selamat ya vy, langgeng.
-Eiser|pada pengen punya pacar ga si?
+Gravy|Aminn, kalian kapan?
+Eiser|ya kan pada pengen punya pacar juga ga si?
 Maxton|Lu kan ada hts mek. Pacarin aja
 Eiser|siapa
 Maxton|Yg lu cerita mmk. Sama si Capan Capan itu udh kaga?
@@ -779,56 +816,67 @@ Gravy|Najis"`,
   /* 16. Date malam hari */
   b1: SC('baby', `
 Gravy|Sayang, ntar malam jam 7 kita keluar yu
-Baby|Mauuu! Aku siap donggg, jemput jam 7 ya abang ❤️
-Gravy|Oke, aku pulang sebentar buat mandi sama siap-siap dulu ya.`),
+Baby|mauuu! mau jam berapaa?
+Gravy|Jam 7 gimana?
+Hagiel|ayoo mauu
+Gravy|Oke, aku pulang sebentar buat mandi sama siap-siap dulu nanti dikabarin lagi ya.`),
   d1: SC('dito', `
-Gravy|Dit, bingung gua outfit date malam ini pake yang mana.
-Dito|Wkwk tumben lu grogi vy. Mana liat opsi bajunya.
+Gravy|Dit, bingung gua outfit date malam ini pake yang mana
+Dito|Wkwk tumben lu grogi vy. Mana liat opsi bajunya
 Gravy|Jaket kulit hitam sama dark jeans cocok ga?
 Dito|Nah! Itu udah paling pas sama style lu. Keliatan cool tapi tetep santai.
 Gravy|Oke sip, nuhun dit!
 Dito|As always bro, good luck datenya!`),
   b2a: SC('baby', `
 Gravy|Otw rumah kamu sayang`,
-    { arrive: { text: 'Udah siap dijemput', by: 'Baby' } }),
+    { arrive: { text: 'aku dah siap abang', by: 'Baby' } }),
   b2: SC('baby', `
-Gravy|Sama sama cintaku. Kamu cantik banget tadi pacar aku wkwk.
-Baby|Ihh malu yaudah aku pamit tidur duluan ya capek bgt wkwk.
-Gravy|Goodnight sayang. I love you
+Gravy|Sama sama cintaku. Kamu cantik banget tadi pacar aku wkwk
+Baby|ihh malu
+Hagiel|aku pamit tidur duluan ya cape banget
+Hagiel|makasih lagi yaa abangg
+Gravy|Iyaa sayang, goodnight. I love you
 Baby|I love you more abang!`,
     { arrive: { text: 'Thank you for today ya abang sayang, aku happy banget hari ini ❤️', by: 'Baby' } }),
   /* 17. Story ke-4 & Barudak Kampus lanjutan */
   /* 18. Evander pamit (percakapan terakhir sebelum ending) */
   ev1: SC('evander', `
-Evander|Vy... Lu masih mau anggap gua temen lu, kan?
-Gravy|Ngomong apa sih lu, Van? Ya masih lah. Ada masalah apa emang?
-Evander|Gua cuma mau mastiin aja. Gua boleh jujur satu hal? Dan janji jangan dipotong dulu.
-Gravy|Jujur apa? Ngomong aja.
-Evander|Mulai malam ini gua harus cabut dari kota ini. Gua mau mulai dari nol di tempat lain. Bukan karena gua mau lari... tapi ini satu-satunya cara biar masalah ini berhenti di gua dan nggak merembet ke anak-anak Akatsudi.
-Gravy|Wait... Maksud lu gimana? Masalah apa, Van? Jangan main cabut gini aja anjir, jelasin dulu!
-Evander|Gua ga bisa cerita detailnya sekarang, Vy. Orang-orang itu udah mulai ngincar nama Akatsudi. Kalau gua stay, kalian semua yang kena. Gua udah di stasiun sekarang. Gua cuma minta satu hal... tolong jaga anak-anak selama gua nggak ada.
-Gravy|Gua nggak bakal biarin lu nanggung masalah ini sendirian, Evander! Lu di stasiun mana?! Gua samperin sekarang.
-Evander|Jangan nekat, Vy. Kalau lu nyusul gua, masalahnya bakal makin rumit. Tetap di kota ini, jaga Hagiel, dan urus anak-anak. Sorry gua nitip beban ini ke lu... See you on the other side, Gravy.
-Gravy|VAN!! BEBEGIG SIAH DI-P-AN MALAH DI-READ DOANG
+Evander|Gravy. Lu masih mau anggap gua temen lu, kan?
+Gravy|Ga ada alasan buat gua, untuk ga temenan lagi sama lu.
+Gravy|Lu kenapa van? Ada problem?
+Evander|Gua cuma mau mastiin aja. Gua boleh jujur satu hal?
+Gravy|Boleh, gua suka kalo lu terbuka sama gua.
+Evander|Mulai malam ini gua harus cabut dari kota ini. Gua mau mulai dari awal di tempat lain. Bukan karena gua mau lari... tapi ini satu-satunya cara biar masalah ini berhenti di gua dan nggak merembet ke anak-anak Akatsudi.
+Gravy|Wait dah
+Gravy|Maksud lu apaan? Masalah apa, Van? Jangan main cabut gini aja anjir, jelasin dulu
+Evander|Gua ga bisa cerita detailnya sekarang, Vy. Orang-orang itu udah mulai ngincar nama Akatsudi.
+Evander|Kalau gua stay, kalian semua yang kena. Gua udah di stasiun sekarang. Gua cuma minta satu hal vy
+Evander|Take care buat yang lain selama gua nggak ada, kalian janga sering berantem.
+Gravy|Kagak usah bercanda van, gua ga bakal biarin lu nanggung masalah ini sendirian
+Evander|Woy Lu di stasiun mana? Gua otw sekarang.
+Evander|Jangan nekat, Vy. Kalau lu nyusul gua, masalahnya bakal makin rumit.
+Evander|Tetap di kota ini, lu haru sama Hagiel, dan tetep sama Akatsudi.
+Evander|Sorry gua nitip beban ini ke lu sendirian. See you on the other side, Gravy.
+Gravy|VAN AJG KAGAK LUCU COK
 Gravy|EVANDER BALES CHAT GUA`),
   in1: SC('incen', '', { arrive: { text: 'Cie', by: 'Incen', sr: 1 } }),
   mer1: SC('merapi', `
 Gravy|Maneh liat aing? Bukannya nyapa wkwkwkwk
 Merapi|Era atuh kan lagi bobogohan
-Gravy|Wkwkwk siga nu ku saha wae.`,
+Gravy|Wkwkwk siga nu ku saha wae dih`,
     { arrive: { text: 'Sumpah urang liat maneh di jalan kirain bukan maneh tapi ternyata wow bobogohan euy developer urang wkwk!', by: 'Merapi', sr: 1 } }),
   bk2: SC('barudak', `
-Incen|ANJAYYY GRAVY KETAHUAN PACARAN WKWKWK! Tadi gue sama Merapi liat lu di jalan lagi sama seseorang lu
+Incen|GRAVY KETAHUAN PACARAN WKWKWK! Tadi aku sama Merapi liat kamu di jalan lagi sama seseorang mana canti lagii
 Merapi|Beneran anjir, pas urang lagi beli buku kuliah tadi liat si Gravy lagi boncengan wkwk!
 Jeremiel|Siapa anjir pacarnya Gravy?! Spill lah!
-Jan Adam|Iya nih vy, kapan-kapan ajak pacar lu main bareng kita dong!
-Incen|Yah kalian mah ga bakal kenal, bukan anak kampus kita wkwk.
-Gravy|Wkwk iya itu temen lama gua. Nanti kapan-kapan gua ajak main bareng anak-anak.
-Incen|Btw Vy, besok Miyuka ada di rumah ga? Aku mau ngajak dia main nih.
+Jan Adam|Iya nih vy, kapan-kapan kenalin ke kita dong
+Incen|yah kalian mah ga bakal kenal, bukan anak kampus kita sihhh
+Gravy|Wkwk iya itu temen lama gua. Nanti kapan kapan gua ajak main bareng anak anak.
+Incen|btw Vy, besok Miyuka ada di rumah ga? Aku mau ngajak dia main nih.
 Gravy|Ada kok. Mau main kemana emang?
-Incen|Nanti juga tau sendiri, kan Miyuka bakal dianterin kamu wkwk.
+Incen|nanti juga tau sendiri, kan Miyuka bakal dianterin kamu wkwk
 Gravy|Iya dehh supir kali gua
-Incen|Wkwk makasih dehh`),
+Incen|wkwk peace dehh`),
 };
 
 /* Dialog telepon pagi hari dari Baby (menggantikan dialog call lama) */
