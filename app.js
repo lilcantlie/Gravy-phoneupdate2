@@ -681,15 +681,15 @@ Maxton|Ily 🫶 Kaulah gay nu paling kasep ku wkwk`,
   /* 11. Balasan story 2 */
   mi1: SC('miyuka', `
 Gravy|Iya ini abang bentar lagi pulang. Mau dititipin makanan ga?
-Miyuka|Mauuu! Beliin Chikuro sama Kopken yang series ungu itu abanggg!
+Miyuka|mauuu! Beliin Chikuro sama Kopken yang series ungu itu abanggg!
 Gravy|Iya ntar dibeliin. Kunci pintu sama jendela ya doll, kamu kan sendirian di rumah.
-Miyuka|Iyaaa abang bawel 🙄 cepetan pulang abis itu aku mau quality time sama pacarku.
+Miyuka|iyaaa abang bawel 🙄 cepetan pulang abis itu aku mau quality time sama pacarku.
 Gravy|Ahh bucin di lama-lamain ahh wkwk.
-Miyuka|Wuuu abang makanya punya pacar! 😜
+Miyuka|wuuu abang makanya punya pacar! 😜
 Gravy|Liat aja nanti, bawel.
-Miyuka|Xixi, cepetan pulang! 😠
+Miyuka|xixi, cepetan pulang! 😠
 Gravy|Bawel.`,
-    { arrive: { text: 'Abang main terus aku di rumah sendirian tau! 😡', by: 'Miyuka', sr: 1 } }),
+    { arrive: { text: 'abang main terus aku di rumah sendirian tau! 😡', by: 'Miyuka', sr: 1 } }),
   h4: SC('baby', `
 Gravy|Mabar kok, ini baru nyampe rumah mau bersih-bersih dulu. Jangan tidur dulu ya, tungguin gua ;)
 Hagiel|eh... iyaa gua tungguin wkwk.`,
@@ -718,7 +718,7 @@ Hagiel|Dasar tengil`),
 Gravy|Hagiel, aku mau ngomong serius boleh?
 Hagiel|eh apaa?
 Gravy|Sebenarnya dari awal aku ajak kamu mabar VD terus, itu buat sama kamu terus
-Gravy|Deeketin kamu
+Gravy|Deketin kamu
 Hagiel|hahaha aku tau kok, dan kamu berhasil deketin akuu
 Hagiel|tapi.. setelah 2 tahun temenan kok baru sekarang?
 Gravy|Kamu kan ada pacar bulan bulan kemarin gimana sih dut
