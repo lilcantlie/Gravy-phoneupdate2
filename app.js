@@ -619,7 +619,7 @@ Gravy|Hagiel ada bilang sesuatu ke lu?
 Keenan|wkwk tau lahh mau tau ga kenapa?
 Gravy|Kagak tau gua mikirin dari tadi, perasaan kemarin masih fine dah
 Keenan|dia abis chatan sama gua nih, curhat
-Gravy|dia ada feeling lu ngelakuin hal yang sama ke yang lain, alias dia ngira lu ngedeketin yang lain
+Keenan|dia ada feeling lu ngelakuin hal yang sama ke yang lain, alias dia ngira lu ngedeketin yang lain
 Gravy|Mana ada anjir ngaco
 Keenan|gua kan juga kenal lu wkwk, makanya gua agak ragu pas dia cerita gitu. tapi ya persepsi dia gituu ngira lu cuma jadiin dia opsi.
 Gravy|Asli dah gua lagi ga deket sama siapa siapa lagi selain dia
