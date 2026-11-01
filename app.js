@@ -851,9 +851,9 @@ Gravy|Wait dah
 Gravy|Maksud lu apaan? Masalah apa, Van? Jangan main cabut gini aja anjir, jelasin dulu
 Evander|Gua ga bisa cerita detailnya sekarang, Vy. Orang-orang itu udah mulai ngincar nama Akatsudi.
 Evander|Kalau gua stay, kalian semua yang kena. Gua udah di stasiun sekarang. Gua cuma minta satu hal vy
-Evander|Take care buat yang lain selama gua nggak ada, kalian janga sering berantem.
+Evander|Take care buat yang lain selama gua nggak ada, kalian jangan sering berantem.
 Gravy|Kagak usah bercanda van, gua ga bakal biarin lu nanggung masalah ini sendirian
-Evander|Woy Lu di stasiun mana? Gua otw sekarang.
+Gravy|Woy Lu di stasiun mana? Gua otw sekarang.
 Evander|Jangan nekat, Vy. Kalau lu nyusul gua, masalahnya bakal makin rumit.
 Evander|Tetap di kota ini, lu haru sama Hagiel, dan tetep sama Akatsudi.
 Evander|Sorry gua nitip beban ini ke lu sendirian. See you on the other side, Gravy.
