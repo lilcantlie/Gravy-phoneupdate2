@@ -743,7 +743,7 @@ Gravy|Finally, aku nunggu 2 tahun buat hari ini
 Hagiel|gitu yaaa, udah ah malu
 Hagiel|besok lagii udah larut banget liat kan kamu besok kerjaa
 Gravy|Wkwkwk apasii gemes banget
-Gravy|Iya kerja, besokn lagi yaa
+Gravy|Iya kerja, besok lagi yaa
 Gravy|Kamu juga tidur ya. Goodnight sayang
 Hagiel|iyaa aku tidur, goodnight jugaa. see you besok!
 Gravy|See you!`,
