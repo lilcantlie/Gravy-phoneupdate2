@@ -450,76 +450,76 @@ i|HAHAHAHAHAH KNTL 😭
   { id: 'zayn', name: 'Zayn Cybersecurity', hidden: true, replay: true, sub: 'last seen recently', src: `
 #F 23:48
 i|vy, lu masih melek?
-o|masih. kenapa?
+o|Masih. kenapa?
 i|server internal down lagi. monitoring dari gue alert dari jam 23.40, sekarang beberapa service udah timeout.
-o|yang production apa internal?
+o|Yang production apa internal?
 i|internal dulu, tapi impact-nya udah kena beberapa service yang dipake tim ops. gue cek dari monitoring, ada request spike sebelum server drop.
-o|ada indikasi attack?
+o|Ada indikasi attack?
 i|belum bisa gue pastiin. makanya gue chat lu. gue butuh cek dari sisi infra juga, tapi akses log yang gue pegang terbatas.
-o|oke, gue coba remote dulu. kirim timestamp sama error log yang udah lu kumpulin.
+o|Oke, gua coba remote dulu. kirim timestamp sama error log yang udah lu kumpulin.
 i|udah gue kirim di grup incident. lu belum baca?
-o|belum, baru buka chat lu. gue cek sekarang.
+o|Belum, baru buka chat lu. gue cek sekarang.
 i|vy, no offense ya, tapi harusnya lu udah monitor ini dari tadi. alert pertama masuk ke channel IT sebelum gue follow up.
-o|gue paham, tapi jangan langsung asumsi gue ignore alert. notifikasi monitoring masuk ke channel, bukan berarti semuanya otomatis ke-handle sama gue. gue juga perlu tau siapa PIC incident-nya.
+o|Gua paham, tapi jangan langsung asumsi gua ignore alert. notifikasi monitoring masuk ke channel, bukan berarti semuanya otomatis ke-handle sama gua. gue juga perlu tau siapa PIC incident-nya.
 i|gue bukan nyalahin lu. gue cuma bilang response time kita kelamaan. kalau service ini nyambung ke operasional besok pagi, impact-nya bisa lebih luas.
-o|dan gue juga lagi coba cari root cause-nya, zayn. kalau mau bahas response time, kita evaluasi setelah incident beres. sekarang fokus recovery dulu.
+o|Dan gua juga lagi coba cari root cause-nya, zayn. kalau mau bahas response time, kita evaluasi setelah incident beres. sekarang fokus recovery dulu.
 i|oke. fair enough. gue cek security event sama access log, lu cek infra dan resource utilization. jangan restart service dulu sebelum log penting ke-capture.
-o|nah, gitu. gue cek CPU, memory, disk sama koneksi database dulu. kalau ada indikasi compromise, kita preserve evidence dan eskalasi sesuai prosedur.
+o|Nah, gitu. gue cek CPU, memory, disk sama koneksi database dulu. kalau ada indikasi compromise, kita preserve evidence dan eskalasi sesuai prosedur.
 i|siap. btw besok lu masuk kantor jam 8 ya.
-o|hah? besok sabtu, zayn 💀
+o|Hah? besok sabtu, zayn 💀
 i|gue tau. Pak Ardi minta tim terkait standby langsung di kantor. incident ini perlu dicek bareng infra, security, sama vendor kalau memang dibutuhin.
-o|jadi lembur dong gue?
+o|Jadi lembur dong gue?
 i|iya, gue udah koordinasi sama lead. jam kerja sama overtime-nya nanti dicatat HR. gue juga masuk besok.
-o|anjir, weekend baru mau napas bentar udah dipanggil server 😭
+o|Anjir, weekend baru mau napas bentar udah dipanggil server 
 i|welcome to IT, katanya suka troubleshooting wkwk.
-o|troubleshooting iya, bukan berarti server boleh punya masalah tiap gue mau libur.
+o|Troubleshooting iya, bukan berarti server boleh punya masalah tiap gua mau libur.
 i|WKWKWK salahin servernya, jangan gue.
-o|gue salahin dua-duanya sekalian. kirim detail incident sama status terakhir ke gue, jangan cuma alert doang.
+o|Gua salahin dua-duanya sekalian. kirim detail incident sama status terakhir ke gua, jangan cuma alert doang.
 i|done. gue update timeline incident, event log, sama service yang terdampak. nanti gue taruh di ticket biar dokumentasinya jelas.
-o|oke. gue lanjut cek infra. kalau udah ada indikasi root cause, kita update di incident channel. jangan ada perubahan config tanpa dicatat dulu.
+o|Oke. gua lanjut cek infra. kalau udah ada indikasi root cause, kita update di incident channel. jangan ada perubahan config tanpa dicatat dulu.
 i|copy. kalau sampai jam 1 belum recover, kita eskalasi ke lead.
-o|setuju. tapi kalau udah pulih, tetap monitor dan validasi service-nya normal. jangan cuma lihat status hijau terus dianggap beres.
+o|Setuju. tapi kalau udah pulih, tetap monitor dan validasi service-nya normal. jangan cuma lihat status hijau terus dianggap beres.
 i|siap, pak IT support 🫡
-o|bacot. besok bawa kopi lu, gue nggak mau keluar duit buat orang yang ngajak lembur.
+o|Bacot. besok bawa kopi lu, gua kagak mau keluar duit buat orang yang ngajak lembur.
 i|deal. asal lu jangan telat besok.
-o|gue dateng. sekarang kerja dulu, debatnya senin aja.
+o|Gua dateng. sekarang kerja dulu, debatnya senin aja.
 i|noted. gue update kalau ada temuan baru.
-o|gas. keep me posted.
+o|Gas. keep me posted.
 ` },
 
   { id: 'andrew', name: 'Andrew PPIC Staff', hidden: true, replay: true, sub: 'last seen recently', src: `
 #S 00:17
-00:17 o|ndrew, lu masih melek?
+00:17 o|Ndrew, lu masih melek?
 00:17 i|teu sare, anjir. kenapa vy 😭
-00:18 o|wkwkwk nanya server aja. sistem PPIC lu masih bisa diakses normal apa udah mulai ngadat?
+00:18 o|Wkwkwk nanya server aja. sistem PPIC lu masih bisa diakses normal apa udah mulai ngadat?
 00:18 i|NAH anjir, pantesan dari tadi loading mulu 💀 gue kira wifi kantor gue nuju mabok.
-00:18 o|lah serius? error-nya dari kapan?
+00:18 o|Lah serius? error-nya dari kapan?
 00:19 i|dari sekitar jam 11 lewat kayaknya. awalnya masih bisa masuk, cuma pas buka data material sama production schedule lama banget. sekarang kadang request timeout.
-00:19 o|oke, berarti udah ada impact ke sistem lu juga. ada data yang gagal ke-save atau cuma lambat pas akses?
+00:19 o|Oke, berarti udah ada impact ke sistem lu juga. ada data yang gagal ke-save atau cuma lambat pas akses?
 00:20 i|sejauh ini yang gue tau cuma lambat. tapi gue belum berani bilang aman, takut ada transaksi yang nyangkut. besok pagi gue cek lagi sama anak PPIC.
-00:20 o|ulah asal refresh terus atuh wkwk 😭 cek dulu status transaksinya, jangan sampe malah double submit. kalau ada yang pending, catet timestamp sama nomor referensinya.
+00:20 o|Ulah asal refresh terus atuh wkwk cek dulu status transaksinya, jangan sampe malah double submit. kalau ada yang pending, catet timestamp sama nomor referensinya.
 00:21 i|SIAP PAK ENGINEER 🫡
-00:21 o|bacot. gue juga lagi mumet ini server dari tadi.
+00:21 o|Bacot. Aing puyeng ajgg
 00:21 i|eh tapi bentar, kalau sistem PPIC ngadat gini, anak produksi shift 3 gimana? mereka masih jalan kan?
-00:22 o|nah itu yang mau gue tanyain. anak-anak produksi yang lembur shift 3 malam ini masih bisa jalan normal? ada yang komplain sistem atau input datanya keganggu?
+00:22 o|Nah itu yang mau gua tanyain. anak-anak produksi yang lembur shift 3 malam ini masih bisa jalan normal? ada yang komplain sistem atau input datanya keganggu?
 00:22 i|masih jalan, tadi gue sempet dikabarin sama leader produksi. cuma mereka agak kehambat pas mau cek jadwal sama kebutuhan material. untungnya beberapa data udah mereka pegang sebelum mulai shift.
-00:23 o|oke, bagus kalau masih ada pegangan. tapi tolong pastiin ke leader-nya, jangan sampe mereka bikin pencatatan manual terus besok datanya beda sama sistem.
+00:23 o|Oke, bagus kalau masih ada pegangan. tapi tolong pastiin ke leader-nya, jangan sampe mereka bikin pencatatan manual terus besok datanya beda sama sistem.
 00:23 i|siap. kasian sih anak-anak, udah shift 3, lembur pula. jam segini mah hayang balik kabeh pasti 😭
-00:23 o|WKWKWK saha nu teu hayang balik, Drew. gue aja pengen matiin laptop terus pura-pura ga punya kerjaan.
+00:23 o|WKWKWK saha nu teu hayang balik, Drew. Gua aja pengen matiin laptop terus pura-pura ga punya kerjaan.
 00:24 i|HAHAHAHAHA ulah kitu, vy. besok urang semua kena semprot kalau production report berantakan.
-00:24 o|makanya bantu gue cek dampaknya dulu. kalau ada transaksi pending, jangan diulang sebelum statusnya jelas. gue lagi koordinasi sama security sama infra buat nyari penyebab server down-nya.
+00:24 o|Makanya bantu gua cek dampaknya dulu. kalau ada transaksi pending, jangan diulang sebelum statusnya jelas. Gua lagi koordinasi sama security sama infra buat nyari penyebab server down-nya.
 00:25 i|oke, gue hubungin leader produksi sekarang. gue minta mereka catet proses yang ketahan sama data yang belum masuk. nanti gue kirim rekap ke lu.
-00:25 o|nah gitu. kalau ada proses yang beneran ke-stop, kabarin juga. biar kita bisa kasih update ke manager, jangan sampe informasi baru naik pas udah pagi.
+00:25 o|Nah gitu. kalau ada proses yang beneran ke-stop, kabarin juga. biar kita bisa kasih update ke manager, jangan sampe informasi baru naik pas udah pagi.
 00:26 i|siap, kawan seperjuangan. server error, manusia ikut error.
-00:26 o|status manusia gue udah critical dari tadi, anjir.
+00:26 o|Status manusia gua udah critical dari tadi, anjir.
 00:26 i|WKWKWK kopi dulu atuh, vy.
-00:27 o|kopi mah bisa, tidur yang ga bisa. besok sabtu gue disuruh masuk lagi jam 8 😭
+00:27 o|Kopi mah bisa, tidur yang ga bisa. besok sabtu gue disuruh masuk lagi jam 8 ajg
 00:27 i|LAH SAMA SIAPA YANG NYURUH LU LEMBUR SABTU 😭
-00:28 o|server lu yang nyuruh, bukan gue.
+00:28 o|Server lu yang nyuruh, bukan gua
 00:28 i|anjir server sekarang punya kuasa atas hidup kita.
-00:28 o|dah, fokus kerja. kirim rekapnya kalau udah dapet kabar. hatur nuhun, Drew.
+00:28 o|Dah, fokus kerja. Kirim rekapnya kalau udah dapet kabar. Hatur nuhun, Drew.
 00:29 i|siap, vy. lu juga jangan lupa istirahat bentar. ulah nepi ka tumbang gara-gara server.
-00:29 o|siap, pak PPIC. kabarin kalau ada perubahan.
+00:29 o|Siap, pak PPIC. kabarin kalau ada perubahan.
 00:29 i|gas. semoga besok servernya sadar diri.
 ` },
 
